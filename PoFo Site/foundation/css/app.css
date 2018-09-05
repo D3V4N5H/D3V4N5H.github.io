@@ -1,0 +1,38 @@
+.tabs-title>a{
+	color: white;
+	display:inline-block;
+	float:none !important;
+}#example-tabs{
+	background: rgba(0,0,0,0.8);	
+}ul.tabs {
+    text-align: center;
+}ul.tabs li {
+    float: none !important;
+    display: inline-block;
+}*:focus {
+    outline: none;
+}.callout{
+	border-width: 0px;
+}h1,h2,h3,h4{
+	text-align: center;
+}.simple-subscription-form {
+  background: rgba(0,0,0,0.8);
+  color: #fefefe;
+  padding: 2rem;
+  border-radius: 0;
+}.simple-subscription-form .button {
+  margin-bottom: 0;
+  border-radius: 0 0 0 0;
+}input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #000; 
+}input::-moz-placeholder,
+textarea::-moz-placeholder {
+	color: #000;
+}input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	color: #000;
+}input::placeholder,
+textarea::placeholder {
+	color: #000; 
+}
